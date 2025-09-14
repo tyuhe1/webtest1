@@ -1,0 +1,138 @@
+a{
+    text-decoration: none;
+}
+
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 79, 79);
+    position: fixed;
+    box-shadow: 0 4px 2px -2px rgb(180, 180, 180);
+}
+
+
+header>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>ul>div>a>span{
+    margin-right: 20px;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header>ul>:first-child{
+    background-color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: black;
+    
+}
+
+
+header>ul>a:hover{
+    
+    background-color: rgb(202, 202, 202);
+}
+
+
+.start{
+   background-color: rgb(255, 85, 85);
+    width: 100%;
+   height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+}
+
+.start>p{
+   padding: 25px;
+}
+
+.start>p:first-child{
+    font-size: 70px;
+}
+.start>p:last-child{
+    background-color: black;
+    font-size: 20px;
+    padding: 15px 30px;
+    color: white;
+   
+}
+.start>p>a{
+    color: white;
+}
+
+.lorem{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lorem>div>p{
+    padding: 20px;
+    font-size: 18px;
+   
+}
+.lorem>div>p:first-child{
+    font-size: 40px;
+}
+.lorem>div>p:last-child{
+    color: rgb(162, 162, 162);
+    font-size: 15px;
+}
+.chai{
+    background-color: rgb(252, 241, 228);
+}
+.chai>div>p:first-child{
+    font-size: 40px;
+}
+.chai>div>p:last-child{
+    font-size: 15px;
+    color: rgb(162, 162, 162);
+}
+.chai>img{
+    margin-left: 35px;
+    margin-top: 100px;
+}
+.chai>div>p{
+    padding: 30px;
+    font-size: 18px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer>p{
+    font-size: 28px;
+    color: white;
+}
+.footer2{
+  width: 100%;
+  height: 300px;  
+}
+
+.dropdown-content{
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
