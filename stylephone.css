@@ -20,7 +20,7 @@ header>ul{
     align-items: center;
 }
 
-header>ul>div>a>span{
+header>ul>a>span{
     margin-right: 20px;
     color: white;
 }
@@ -43,6 +43,10 @@ header>ul>a:hover{
     background-color: rgb(202, 202, 202);
 }
 
+header>ul>div>a{
+    display: none;
+}
+
 
 .start{
    background-color: rgb(255, 85, 85);
@@ -62,6 +66,7 @@ header>ul>a:hover{
 
 .start>p:first-child{
     font-size: 70px;
+    margin-left: 90px;
 }
 .start>p:last-child{
     background-color: black;
@@ -128,11 +133,4 @@ header>ul>a:hover{
 .footer2{
   width: 100%;
   height: 300px;  
-}
-
-.dropdown-content{
-    display: none;
-}
-.dropdown:hover .dropdown-content{
-    display: block;
 }
