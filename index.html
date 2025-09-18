@@ -21,6 +21,7 @@
             <a href="">Link2</a>
             <a href="">Link3</a>
             <a href="">Link4</a></div>
+            <span class="w3-xlarge"><button class="fa fa-refresh" onclick="theme()"></button></span>
             <a class="bar" href="#"><span class="w3-xlarge"><span class="fa fa-bars"></span></span></a>
         </ul>
     </header>
@@ -30,7 +31,6 @@
         <p>Template by Taha</p>
         <p><a href="">Get Started</a></p>
     </div>
-
     <div class="lorem">
         <div>
             <p>Lorem Ipsum</p>
@@ -53,6 +53,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     <div class="footer">
         <p>Quote of the day: live life</p>
     </div>
+
+
+<script>
+function theme(){
+    var element = document.body;
+    element.classList.toggle("darkmode")
+}
+</script>
 
     <div class="footer2"></div>
 </body>

@@ -1,7 +1,26 @@
 a{
     text-decoration: none;
 }
-
+.darkmode{
+    .start{
+        background-color: rgb(57, 57, 57);
+    }
+    header{
+        background-color: rgb(46, 46, 46);
+    }
+    header>ul>a, header>ul>div>a{
+        color: rgb(255, 55, 55);
+    }
+    .start>p, .start>p>a{
+        color: rgb(255, 55, 55);
+    }
+    .footer>p{
+        color: rgb(255, 55, 55);
+    }
+    button{
+        color: rgb(255, 55, 55);
+    }
+}
 
 header{
     width: 100%;
@@ -29,6 +48,14 @@ header>ul>a>span{
     margin: 0;
     padding: 0;
 }
+
+button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 15px 30px;
+}
+
 header>ul>:first-child{
     background-color: white;
     padding: 15px 30px;
